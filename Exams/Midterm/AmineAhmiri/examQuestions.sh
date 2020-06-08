@@ -74,7 +74,7 @@ question3(){
 			echo "$WRONG" >> $ANSWER_FILE
 			;;
 		*)
-			echo " Please enter a valid selection from a - d "
+			echo " Please enter a valid selection from  a - d "
 			question3
 			;;
 	esac
